@@ -1,0 +1,1 @@
+1. Celery + Redis执行异步任务完成后，没有自动执行task_success.connect(sender=xxx)这个Signal。解决方案是，清理redis中的缓存信息，然后重启服务即可。
