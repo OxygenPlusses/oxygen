@@ -1,1 +1,1 @@
-day day up
+Day Day Up!
